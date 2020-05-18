@@ -7,19 +7,128 @@
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">
+        <link href="node_modules/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
 
         <title>Dan Beto || Web Developer</title>
     </head>
 
     <body>
-        <header>
-
+        <header class="sticky-top">
+            <div>
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <a class="navbar-brand" href="#">Dan Beto <span>||</span> Web Developer</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      Menu
+                    </button>
+                  
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#aboutme">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#whatiknow" tabindex="-1" aria-disabled="true">What I Know</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#myworksofar" tabindex="-1" aria-disabled="true">My Work So Far</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#contact" tabindex="-1" aria-disabled="true">Contact</a>
+                          </li>
+                      </ul>
+                    </div>
+                  </nav>
+            </div>
         </header>
+
+        <div>
+            <h2 class="container" id="aboutme">About Me</h2>
+            <h4 class="col">Hi, I'm Dan.<br/><br/> I am a newer developer from Saint Paul, Minnesota.
+                I studied at Nucamp Coding Bootcamp, and have been coding web-based 
+            projects since I was 8. HTML/CSS were my first languages, as well as delving into
+        C++ when I was just an early teen. <br /><br />
+    Programming and web design/development is my prime passion. I love working with people
+and using my creativity and personality to create web apps and web sites for people.<br /><br />
+Please, take a look around!</h4>
+        </div>
+        <div id="whatiknow"></div>
+        <div>
+            <h2 class="container">What I know</h2>
+            <h4 class="col">This is a list of languages and other technologies that I work with primarily.</h4>
+        </div>
+
+        <img class="w-25" src="assets/images/javascript-logo.png" alt="">
+        <img class="w-25" src="assets/images/nodejs-logo.png" alt="">
+        <img class="w-25" src="assets/images/react-logo.png" alt="">
+        <img class="w-25" src="assets/images/git-logo.png" alt="">
+        <img class="w-25" src="assets/images/html-logo.png" alt="">
+        <img class="w-25" src="assets/images/mongodb.png" alt="">
+
+
+        <div class="col" style="width: 40rem; margin-bottom: 20px;">
+        <div class="row progress">
+            
+            <div class="progress-bar progress-bar-striped bg-info text-center" role="progressbar" style="width: 90%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">HTML</div> 90%
+          </div>  
+        
+          <div class="row progress">
+            <div class="progress-bar progress-bar-striped bg-info text-center" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">CSS</div> 80%
+          </div>
+          <div class="row progress">
+            <div class="progress-bar progress-bar-striped bg-info text-center" role="progressbar" style="width: 60%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">Javascript</div> 60%
+          </div>
+          <div class="row progress">
+            <div class="progress-bar progress-bar-striped bg-info text-center" role="progressbar" style="width: 50%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">NodeJs</div> 50%
+          </div>
+          <div class="row progress">
+            <div class="progress-bar progress-bar-striped bg-info text-center" role="progressbar" style="width: 65%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">React</div> 65%
+          </div>
+          <div class="row progress">
+            <div class="progress-bar progress-bar-striped bg-info text-center" role="progressbar" style="width: 50%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">MongoDB</div> 50%
+          </div>
+        </div>
+    </div>
+    
+        <div>
+            <h2 class="container" id="myworksofar">My Work So Far</h2>
+            <h4 class="col">I will periodically update this list more and more as I develop!</h4>
+            <h4><a href="http://evening-castle-90226.herokuapp.com/home">Nucamp Campsite</a></h4>
+        </div>
+    
+        <footer>
+            <div class="container text-center">
+                <h2 id="links">Links</h2>
+                <ul class="list-unstyled">
+                  <a class="col btn btn-social-icon btn-linkedin" href="http://linkedin.com/in/dan-beto-a334b473"> <i class="fa fa-linkedin"></i></a>
+                <a class="col btn btn-social-icon btn-facebook" href="http://facebook.com/dan.beto.5"> <i class="fa fa-facebook"></i></a>
+                <a class="col btn btn-social-icon btn-github" href="http://github.com/dan31408"><i class="fa fa-github"></i></a>
+                </ul>
+            </div>
+
+            <div class="container">
+              <div class="row">
+                <h5 class="col"></h5>
+                
+            </div>
+          </div>
+
+            <div class="container" id="contact">
+              <h2>Contact</h2>
+                <i class="fa fa-phone"> Tel: 651-408-4586</i><br />
+                <i class="fa fa-envelope"> Email: dan.betomedia@gmail.com</i>
+            </div>
 
         <footer>
 
         </footer>
-        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     </body>

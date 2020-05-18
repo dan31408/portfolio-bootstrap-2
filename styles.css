@@ -1,0 +1,29 @@
+.progress {
+    padding: 20px;
+    background-color: white;
+    margin-bottom: 50px;
+}
+
+.navbar {
+    margin-bottom: 20px;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+span {
+    text-shadow: 5px 10px rgb(151, 151, 151);
+    padding: 2px;
+}
+
+h2 {
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+h4 {
+    font-family: 'Cormorant Garamond', serif;
+    padding: 20px;
+}
+
+img {
+    padding: 20px;
+    margin-bottom: 50px;
+}
